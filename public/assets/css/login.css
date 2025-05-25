@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --roxo: #c6aeef;
+  --bg: #dfcef0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* ===== BODY - BACKGROUND IMAGE ===== */
+
+body {
+  background-image: url(../img/banner/login-register-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ===== Reusable CSS ===== */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== WRAPPER ===== */
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.login-box {
+  position: relative;
+  width: 450px;
+  backdrop-filter: blur(25px);
+  border: 2px solid var(--bg);
+  border-radius: 15px;
+  padding: 7.5em 2.5em 4em 2.5em;
+  color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+  width: 140px;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-header span {
+  font-size: 30px;
+  color: var(--black);
+}
+
+#error-message{
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+  border: rgb(221, 0, 0) 2px solid;
+  border-radius: 20px;
+  background-color: rgb(94, 10, 10);
+  box-shadow: 2px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  padding: 2px;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  background: transparent;
+  color: #fff;
+  padding-inline: 20px 50px;
+  border: 2px solid var(--bg);
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+#user {
+  margin-bottom: 10px;
+}
+
+.label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: 0.2s;
+}
+
+.input-field:focus ~ .label,
+.input-field:valid ~ .label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 14px;
+  background: var(--bg);
+  border-radius: 30px;
+  color: var(--black);
+  padding: 0 10px;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.remember-pass {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.input-submit {
+  width: 100%;
+  height: 50px;
+  background: var(--bg);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: var(--black);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.input-submit:hover {
+  background: var(--roxo);
+}
+
+.register {
+  text-align: center;
+}
+
+.register a {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 564px) {
+
+  .wrapper {
+    padding: 20px;
+  }
+
+  .login-box {
+    padding: 7.5em 1.5em 4em 1.5em;
+  }
+  #error-message{
+    width: 80%;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 425px){
+
+#error-message{
+    width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+
+#error-message{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+
+#error-message{
+    width: 80%;
+  }
+
+}

@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --roxo: #c6aeef;
+  --bg: #dfcef0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ===== BODY - BACKGROUND IMAGE ===== */
+body {
+  background-image: url(../img/banner/login-register-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ===== Reusable CSS ===== */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.register-box {
+  position: relative;
+  width: 450px;
+  backdrop-filter: blur(25px);
+  border: 2px solid var(--bg);
+  border-radius: 15px;
+  padding: 7.5em 2.5em 4em 2.5em;
+  color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.register-header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+  width: 140px;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.register-header span {
+  font-size: 28.5px;
+  color: var(--black);
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  background: transparent;
+  color: #fff;
+  padding-inline: 20px 50px;
+  border: 2px solid var(--bg);
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+#user,
+#email,
+#password,
+#confirm_password,
+#address,
+#phone {
+  margin-bottom: 10px;
+}
+
+.label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: 0.2s;
+}
+
+.input-field:focus ~ .label,
+.input-field:valid ~ .label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 14px;
+  background: var(--bg);
+  border-radius: 30px;
+  color: var(--black);
+  padding: 0 10px;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.input-submit {
+  width: 100%;
+  height: 50px;
+  background: var(--bg);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: var(--black);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.input-submit:hover {
+  background: var(--roxo);
+}
+
+.register {
+  text-align: center;
+}
+
+.register a {
+  font-weight: 500;
+}
+
+.input-radio {
+  margin: 20px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: inline;
+  gap: 1px;
+  font-weight: 400;
+  padding: 10px 10px;
+}
+
+.input-radio p {
+  margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 3px;
+}
+
+.input-radio label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 1px 5px;
+  border-radius: 30px;
+  transition: 0.3s;
+  background: transparent;
+}
+
+.input-radio input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 2px;
+  margin: 3px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-radio input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 12px;
+  height: 12px;
+  background-color: var(--roxo);
+  border-radius: 50%;
+}
+
+.input-radio label:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: var(--roxo);
+}
+
+@media only screen and (max-width: 564px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  .register-box {
+    padding: 7.5em 1.5em 4em 1.5em;
+  }
+  .register-header {
+    width: 120px;
+    height: 60px;
+  }
+  .register-header span {
+    font-size: 24px;
+  }
+}
