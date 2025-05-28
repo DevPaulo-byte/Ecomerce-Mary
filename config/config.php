@@ -15,3 +15,4 @@ define("DB_PASS", "paulo29");
 define("DB_SCHEMA", "ecomerce");
 define("DB_PORT", "3306");
 define("DB_CHARSET", "utf8mb4");
+define('BASE_URL', '/Ecomerce-Mary/public');

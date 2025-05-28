@@ -1,7 +1,7 @@
 <?php
 
 // Inclui o arquivo de conexão com o banco de dados e inicia sessão
-include_once '../config/db.php';
+include_once '../../../config/db.php';
 
 // Define o tipo de conteúdo da resposta como JSON com codificação UTF-8
 header('Content-Type: application/json; charset=utf-8');

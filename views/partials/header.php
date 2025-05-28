@@ -1,14 +1,14 @@
 <header class=" header">
 
     <a href="#" class="logo">
-        <img src="../img/logo/logo.png" width="85" height="85" alt="logo">
+        <img src="../../public/assets/img/logo/logo.png" width="85" height="85" alt="logo">
     </a>
 
 
     <nav class="navbar">
         <a href="#home">Inicio</a>
         <a href="#menu">Em Alta</a>
-        <a href="../pages/products.php">Produtos</a>
+        <a href="../site/ProductList.php">Produtos</a>
         <a href="#about">Sobre</a>
         <a href="#review">Avaliações</a>
         <a href="#contact">Contato</a>

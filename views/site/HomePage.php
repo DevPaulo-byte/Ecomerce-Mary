@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- style -->
-    <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="../../public/assets/css/style.css?v=<?php echo time(); ?>">
     <!-- style end -->
 </head>
 
@@ -53,7 +53,7 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -93,7 +93,7 @@
             </div>
 
             <div class="box">
-                <img src="../img/products/produto-01.jpeg" alt="#">
+                <img src="../../public/assets/img/products/produto-01.jpeg" alt="#">
                 <h3>Hidratante Corporal Marshmallow</h3>
                 <div class="price">R$40.99 <span>45.99</span> </div>
                 <a href="#" class="btn">Adicione a Sacola</a>
@@ -116,7 +116,7 @@
         <div class="row">
 
             <div class="image">
-                <img src="../img/banner/about-bg.jpg" alt="Sobre Nós" loading="lazy">
+                <img src="../../public/assets/img/banner/about-bg.jpg" alt="Sobre Nós" loading="lazy">
             </div>
 
             <div class="content">
@@ -151,13 +151,13 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="../img/banner/quote-img.png" alt="Avaliações" class="quote">
+                <img src="../../public/assets/img/banner/quote-img.png" alt="Avaliações" class="quote">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum quis accusamus consequatur
                     nobis
                     voluptatibus asperiores, laboriosam, debitis numquam ipsum iste inventore minus, assumenda ab. Fuga,
                     ullam
                     inventore? Quod, quasi?</p>
-                <img src="../img/clientes/cliente-01.png" class="user" alt="usuario">
+                <img src="../../public/assets/img/clientes/cliente-01.png" class="user" alt="usuario">
                 <h3>Matheus Silva</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -171,13 +171,13 @@
             </div>
 
             <div class="box">
-                <img src="../img/banner/quote-img.png" alt="Avaliações" class="quote">
+                <img src="../../public/assets/img/banner/quote-img.png" alt="Avaliações" class="quote">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum quis accusamus consequatur
                     nobis
                     voluptatibus asperiores, laboriosam, debitis numquam ipsum iste inventore minus, assumenda ab. Fuga,
                     ullam
                     inventore? Quod, quasi?</p>
-                <img src="../img/clientes/cliente-01.png" class="user" alt="usuario">
+                <img src="../../public/assets/img/clientes/cliente-01.png" class="user" alt="usuario">
                 <h3>Matheus Silva</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -191,13 +191,13 @@
             </div>
 
             <div class="box">
-                <img src="../img/banner/quote-img.png" alt="Avaliações" class="quote">
+                <img src="../../public/assets/img/banner/quote-img.png" alt="Avaliações" class="quote">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum quis accusamus consequatur
                     nobis
                     voluptatibus asperiores, laboriosam, debitis numquam ipsum iste inventore minus, assumenda ab. Fuga,
                     ullam
                     inventore? Quod, quasi?</p>
-                <img src="../img/clientes/cliente-01.png" class="user" alt="usuario">
+                <img src="../../public/assets/img/clientes/cliente-01.png" class="user" alt="usuario">
                 <h3>Matheus Silva</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -211,13 +211,13 @@
             </div>
 
             <div class="box">
-                <img src="../img/banner/quote-img.png" alt="Avaliações" class="quote">
+                <img src="../../public/assets/img/banner/quote-img.png" alt="Avaliações" class="quote">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatum quis accusamus consequatur
                     nobis
                     voluptatibus asperiores, laboriosam, debitis numquam ipsum iste inventore minus, assumenda ab. Fuga,
                     ullam
                     inventore? Quod, quasi?</p>
-                <img src="../img/clientes/cliente-01.png" class="user" alt="usuario">
+                <img src="../../public/assets/img/clientes/cliente-01.png" class="user" alt="usuario">
                 <h3>Matheus Silva</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -284,7 +284,7 @@
 
     <!-- footer section end -->
 
-    <script src="../js/home.js"></script>
+    <script src="../../public/assets/js/home.js"></script>
 </body>
 
 </html>

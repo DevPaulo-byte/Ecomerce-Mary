@@ -1,6 +1,7 @@
 <?php
 
-include_once '../config/config.php';
+
+require_once __DIR__ . '/../../config/config.php';
 
 ?>
 
@@ -15,8 +16,8 @@ include_once '../config/config.php';
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login</title>
     <!-- style -->
-    <link rel="shortcut icon" href="../img/logo/logo.png" type="image/x-icon" windth="16" height="16">
-    <link rel="stylesheet" href="../css/login.css?v=<?php echo time(); ?>">
+    <link rel="shortcut icon" href="../../public/assets/img/logo/logo.png" type="image/x-icon" windth="16" height="16">
+    <link rel="stylesheet" href="../../public/assets/css/login.css?v=<?php echo time(); ?>">
     <!-- style end -->
 
 </head>
@@ -96,7 +97,7 @@ include_once '../config/config.php';
 
 
 
-    <script src="../js/login.js"></script>
+    <script src="../../public/assets/js/login.js"></script>
 </body>
 
 

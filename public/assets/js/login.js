@@ -1,5 +1,5 @@
 function connect(formData){
-    return fetch('../controllers/userLogin.php', {
+    return fetch('/Ecomerce-Mary/public/login', {
         method: "post",
         body: formData
     })

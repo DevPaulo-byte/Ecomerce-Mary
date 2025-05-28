@@ -1,0 +1,16 @@
+# Define a prioridade dos arquivos que devem ser carregados como página inicial
+DirectoryIndex index.php index.html index.htm
+
+# Desativa a listagem de diretórios (protege contra navegação por pastas)
+Options -Indexes
+
+# Ativa o módulo de reescrita (mod_rewrite) do Apache
+RewriteEngine On
+
+# Se o arquivo ou diretório solicitado não existir, continua com a reescrita
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redireciona todas as requisições para index.php (mantendo parâmetros da query string)
+RewriteRule ^ index.php [QSA,L]
+
